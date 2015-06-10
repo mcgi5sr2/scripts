@@ -54,7 +54,7 @@ else
 fi
  
 # For building recovery
-export BUILDING_RECOVERY=true
+export BUILDING_RECOVERY=false
 
 # Prebuilt chromium
 export USE_PREBUILT_CHROMIUM=1
@@ -64,7 +64,7 @@ export ANDROID_FIXUP_COMMON_OUT=true
 
 # Lunch device
 echo -e "${bldblu}Lunching device... ${txtrst}"
-lunch "omni_$DEVICE-userdebug"
+lunch "slim_$DEVICE-userdebug"
 
 # Clean out folder
 if [ "$CLEAN" == "clean" ]
