@@ -12,7 +12,8 @@ SYNC="$2"
 THREADS="$3"
 CLEAN="$4"
 LOG="$5"
-RELEASE="$6"
+CHANGELOG="$6"
+RELEASE="$7"
 
 # Time of build startup
 res1=$(date +%s.%N)
@@ -43,6 +44,15 @@ else
    export IS_RELEASED_BUILD=
 fi
 
+#Using Changelog
+If [ "$CHANGELOG" == "changelog" ]
+then
+	echo -e "Initiating Changelog Script"
+	. Other_scripts/genreate_changelog.sh
+else
+	echo -e "No Changelog generated"
+fi
+ 
 # For building recovery
 export BUILDING_RECOVERY=true
 

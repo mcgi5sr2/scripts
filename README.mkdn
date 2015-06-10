@@ -1,7 +1,7 @@
 build_rom.sh
 ---------
 
-	 . scripts/build_rom.sh mako nosync 7 clean log release
+	 . scripts/build_rom.sh i9300 nosync 16 clean log changelog release
  
 Parameter 1: The device tree: mako | hammeread | others
 
@@ -13,7 +13,9 @@ Parameter 4: Make a clean build: clean to make clobber | noclean to make install
 
 Parameter 5: Save a txt log in the root repo folder: log | nolog
 
-Parameterr 6: 
+Parameter 6: Create a changelog file: changelog | nochangelog
+
+Parameter 7: 
 release: Write a LAST_BUILD_PROP file: when you'll build again new a public (release) version of the rom, the automated Slimcenter changelog creation will track changes from the version you are building now.
 norelease  (or leave it empty): Don't write a LAST_BUILD_PROP file: when you'll build again new a public (release) version of the rom, the automated Slimcenter changelog creation will track changes from the last release version you built, not this one.
 
