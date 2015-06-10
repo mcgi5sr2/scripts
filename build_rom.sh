@@ -44,7 +44,7 @@ else
 fi
 
 # For building recovery
-export BUILDING_RECOVERY=false
+export BUILDING_RECOVERY=true
 
 # Prebuilt chromium
 export USE_PREBUILT_CHROMIUM=1
