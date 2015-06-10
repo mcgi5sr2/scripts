@@ -45,7 +45,7 @@ else
 fi
 
 #Using Changelog
-If [ "$CHANGELOG" == "changelog" ]
+if [ "$CHANGELOG" == "changelog" ]
 then
 	echo -e "Initiating Changelog Script"
 	. Other_scripts/genreate_changelog.sh
