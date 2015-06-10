@@ -48,7 +48,7 @@ fi
 if [ "$CHANGELOG" == "changelog" ]
 then
 	echo -e "Initiating Changelog Script"
-	. Other_scripts/genreate_changelog.sh
+	. scripts/Other_scripts/genreate_changelog.sh
 else
 	echo -e "No Changelog generated"
 fi
