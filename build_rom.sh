@@ -54,7 +54,7 @@ export ANDROID_FIXUP_COMMON_OUT=true
 
 # Lunch device
 echo -e "${bldblu}Lunching device... ${txtrst}"
-lunch "slim_$DEVICE-userdebug"
+lunch "omni_$DEVICE-userdebug"
 
 # Clean out folder
 if [ "$CLEAN" == "clean" ]
