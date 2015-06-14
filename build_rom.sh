@@ -48,7 +48,7 @@ fi
 if [ "$CHANGELOG" == "changelog" ]
 then
 	echo -e "Initiating Changelog Script"
-	. scripts/Other_scripts/genreate_changelog.sh
+	. scripts/Other_scripts/generate_changelog.sh
 else
 	echo -e "No Changelog generated"
 fi
@@ -57,7 +57,7 @@ fi
 export BUILDING_RECOVERY=true
 
 # Prebuilt chromium
-export USE_PREBUILT_CHROMIUM=1
+export USE_PREBUILT_CHROMIUM=0
 
 # Fix common out folder not being a common
 export ANDROID_FIXUP_COMMON_OUT=true
