@@ -9,9 +9,9 @@
   <project name="ezio84/device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="lp5.1" />
   <project name="ezio84/kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="lp5.1" />
   <!-- Proprietary vendor blobs - NOW THEY ARE UPDATED TO LATEST 5.1.1 FACTORY IMGS -->
-  <project path="vendor/lge/" name="TheLoonyBin/proprietary_vendor_lge" remote="github" revision="lp5.1" />
-  <project path="vendor/broadcom/" name="TheLoonyBin/proprietary_vendor_broadcom" remote="github" revision="lp5.1" />
-  <project path="vendor/qcom/" name="TheLoonyBin/proprietary_vendor_qcom" remote="github" revision="lp5.1" />
+  <project path="vendor/lge/" name="ezio84/proprietary_vendor_lge" remote="github" revision="lp5.1" />
+  <project path="vendor/broadcom/" name="ezio84/proprietary_vendor_broadcom" remote="github" revision="lp5.1" />
+  <project path="vendor/qcom/" name="ezio84/proprietary_vendor_qcom" remote="github" revision="lp5.1" />
   <!--Switch to my forked projects (only needed ones, for customizations or translations) -->
   <remove-project path="frameworks/base" name="SlimRoms/frameworks_base" />
   <project path="frameworks/base" name="ezio84/frameworks_base" remote="github" revision="lp5.1" />
@@ -57,7 +57,29 @@
   <project path="bionic" name="ezio84/android_bionic" remote="github" revision="lp5.1" />
   <remove-project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" />
   <project path="packages/apps/DeskClock" name="ezio84/packages_apps_DeskClock" remote="github" revision="lp5.1" />
+  <remove-project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" />
   <project path="frameworks/opt/cards" name="ezio84/frameworks_opt_cards" remote="github" revision="lp5.1" />
+  <remove-project path="external/bluetooth/bluedroid" name="SlimRoms/android_external_bluetooth_bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="ezio84/android_external_bluetooth_bluedroid" remote="github" revision="lp5.1" />
+  <remove-project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" />
+  <project path="external/stagefright-plugins" name="ezio84/android_external_stagefright-plugins" remote="github" revision="lp5.1" />
+  <remove-project path="frameworks/native" name="SlimRoms/frameworks_native" />
+  <project path="frameworks/native" name="ezio84/frameworks_native" remote="github" revision="lp5.1" />
+  <remove-project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" />
+  <project path="hardware/libhardware" name="ezio84/hardware_libhardware" remote="github" revision="lp5.1" />
+  <remove-project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" />
+  <project path="frameworks/opt/net/wifi" name="ezio84/frameworks_opt_net_wifi" remote="github" revision="lp5.1" />
+  <remove-project path="device/qcom/common" name="SlimRoms/device_qcom_common" />
+  <project path="device/qcom/common" name="ezio84/device_qcom_common" remote="github" revision="lp5.1" />
+  <remove-project path="system/extras" name="SlimRoms/android_system_extras" />
+  <project path="system/extras" name="ezio84/android_system_extras" remote="github" revision="lp5.1" />
+  <remove-project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" />
+  <project path="external/f2fs-tools" name="ezio84/android_external_f2fs-tools" remote="github" revision="lp5.1" />
+  <remove-project path="device/qcom/sepolicy" name="SlimRoms/device_qcom_sepolicy" />
+  <project path="device/qcom/sepolicy" name="ezio84/device_qcom_sepolicy" remote="github" revision="lp5.1" />
+  <!-- Prebuilt Google Webview-->
+  <remove-project path="frameworks/webview" name="platform/frameworks/webview" />
+  <project path="frameworks/webview" name="ezio84/android_frameworks_webview" remote="github" revision="lp5.1" />
   <!-- Screen recorder by ChamaleonOS-->
   <project path="packages/apps/ScreenRecorder" name="ezio84/android_packages_apps_ScreenRecorder" remote="github" revision="lp5.1" />
   <!-- Switch from old DSP Manager to AudioFX and Eleven music player by CyanogenMod -->

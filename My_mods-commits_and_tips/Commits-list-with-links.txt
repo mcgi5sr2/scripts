@@ -1,6 +1,120 @@
+Double tap to sleep anywhere on the lock screen
+https://github.com/ezio84/frameworks_base/commit/d1924a737e383b6191d1d45791843dc4ec1ffccd
+https://github.com/ezio84/packages_apps_Settings/commit/6fde5fa5c381a7af9a204c9120a7d4ec5fd62e2d
+
+Quick Settings: add an option to hide sensitive data tiles when on a secure lockscreen (enable it in the QS settings)
+https://github.com/ezio84/frameworks_base/commit/79d607e938eb557d71ecd5a33a0855ab28d90310
+https://github.com/ezio84/packages_apps_Settings/commit/fee0b9420fecc68041adb60cadfb8f805000cc19
+https://github.com/ezio84/frameworks_base/commit/0197f6590382371fe4b6c92f5404dcb4cf46b834
+
+Slim Recent App Sidebar
+https://github.com/ezio84/frameworks_base/commit/41ec9f7fdbbded2b14f1343b037f6cb2f7439f38
+https://github.com/ezio84/packages_apps_Settings/commit/cc050f00eb766999948d26dd55331ec09d4f2559
+
+Floating mode
+https://github.com/ezio84/packages_apps_Settings/commit/3fe443d3a6761d7add93ef0cc336b6f2be7bf935
+https://github.com/ezio84/packages_apps_Settings/commit/00f46237a55d4ae3773f5e208c72180b4134b57c
+https://github.com/ezio84/packages_apps_Settings/commit/2b69fa834dac711dc8f5dabf43326c30c8f49b28
+https://github.com/ezio84/frameworks_base/commit/9b89ed04e89f4b5c497cd5fa82f01b3e0b7ebbed
+https://github.com/ezio84/frameworks_base/commit/dcfa0226924ce0c6e0f183b39acb1334f73c09f1
+
+ResolverActivity: reduce elevation to make it flat (Before: http://i.imgur.com/N1S3GJq.png - After: http://i.imgur.com/Vkk1lj4.png):
+https://github.com/ezio84/frameworks_base/commit/ff868420ec06ae8ac894f74fe99e5071affacc28
+
+Show icon of package associated with Toast
+https://github.com/ezio84/frameworks_base/commit/f4dee9e7852eb32695ebdea638e226ef54362c16
+
+Display apk path in App info
+https://github.com/ezio84/packages_apps_Settings/commit/4019e23b11555d01e1d3f399520df238af9689a5
+
+Add lockscreen rotation as an optional rotation setting
+https://github.com/ezio84/frameworks_base/commit/959fd2203e0d82a80d63657148e76f889b2d1ba9
+https://github.com/ezio84/packages_apps_Settings/commit/1b986d22d8b8b1efd782f7f00f386dabeb7ef4eb
+
+Allow to change wifi AP priorities (wifi settings - save networks - tap on the 3 dots - disable auto priority - then you can drag networks in the list)
+https://github.com/ezio84/frameworks_opt_net_wifi/commit/64292d56d91440273deac10d1d9b87c076054c94
+https://github.com/ezio84/frameworks_base/commit/eae622e26960c7090186c955e8e91914bd5674e5
+https://github.com/ezio84/packages_apps_Settings/commit/e0dbf35272afeb3185f7d46594679829daa0bae4
+
+Allow to change the current country setting (which will stick till the next mobile network change) or to set a constant override which will stick also after mobile network change
+https://github.com/ezio84/frameworks_base/commit/e2aae0998bccaec93c30802081e1404e86d75e02
+https://github.com/ezio84/frameworks_opt_net_wifi/commit/2fc8bfc69a8004619ca6e9b943fb125200c1e884
+https://github.com/ezio84/packages_apps_Settings/commit/e5e6455c3713ca406b512d97df8f76a79dda16f9
+
+Left clock 
+https://github.com/ezio84/frameworks_base/commit/5cfac9bf49853b48494ff89262405f2bc20e7d39
+https://github.com/ezio84/packages_apps_Settings/commit/0f86d318909e1abbbab8cb4e5e705a5999c0e481
+
+Mobile data single click to switch off data
+https://github.com/ezio84/frameworks_base/commit/562b6218d3d5a38305e1128492e31d904b76fc53
+https://github.com/ezio84/frameworks_base/commit/1c18edfbd6e438f1317a2433eba5c5c8d8f7d211
+
+Let's use the home button during a ringing call (need testing mostly on low end device)
+https://github.com/ezio84/frameworks_base/commit/8f250df2c20aa8b392d309ef14aff90355539573
+
+DeskClock increasing ring
+https://github.com/ezio84/packages_apps_DeskClock/commit/9e22ac780595e06e8f77d2ab8e38553cf63b3d30
+
+Custom NavRing
+https://github.com/ezio84/frameworks_base/commit/2d0b6048bfde9b2215839dc57c6c7e2b3f54d8d9
+https://github.com/ezio84/frameworks_base/commit/b8abda6db86a5703abf91e15a577f1663ccc9cc2
+https://github.com/ezio84/frameworks_base/commit/c22a5c6e6d17bbb1901959a1301e98680682dc6b
+https://github.com/ezio84/packages_apps_Settings/commit/3105d0cf2c3904ef76c16ad862c7b661cff53e9d
+
+SlimDim (set a timeout to dim nav buttons after inactivity)
+https://github.com/ezio84/packages_apps_Settings/commit/c2459f0105fa500a99bb65efb958a93f2856d178
+https://github.com/ezio84/frameworks_base/commit/02db738d5bea4fdc7d8857cf6d6adc5c3b5405d9
+https://github.com/ezio84/frameworks_base/commit/6f7aca6d177170261e647cc77a230abc3abfc929
+https://github.com/ezio84/frameworks_base/commit/bc345c802edc7ca2dc3200c7e8ba2b211718a803
+https://github.com/ezio84/packages_apps_Settings/commit/5642a31128308b734281575607c8b4d43d653ab5
+https://github.com/ezio84/frameworks_base/commit/a230438eccd48011a5da1154883354cbfa5ef20e
+https://github.com/ezio84/frameworks_base/commit/58cb04fc0aaca679c89765c3c72a1820a4337d18
+https://github.com/ezio84/frameworks_base/commit/10db88b00ea033c1a02c5c13bb3664e76c1d4eed
+https://github.com/ezio84/frameworks_base/commit/a76f26f2e489592e1b49bf418a64c18aafc8baf8
+
+Add hotspot icon to status bar
+https://github.com/ezio84/frameworks_base/commit/c445b6f865500143a79e619b6bbaeb601b3765c1
+
+SystemUI: hide navigation bar faster in SetupWizard
+https://github.com/ezio84/frameworks_base/commit/5cc1e2357b1e6090d673547473794616aaa92d1d
+
+Telephony: Non-intrusive InCall UI switch
+https://github.com/ezio84/packages_services_Telephony/commit/ac5eb6da51395b7656567b6b83504a1895c56e28
+https://github.com/ezio84/frameworks_base/commit/d81bb4618b915e27692116ee158f150ea2b007d3
+
+Turn off "Mobile data" and "Data roaming" by default
+https://github.com/ezio84/vendor_slim/commit/a439bdabd761eac18638225cd777cbf3ce7a760a
+
+Allow/Prevent notification light in Zen mode
+https://github.com/ezio84/packages_apps_Settings/commit/014e3a69e8840bc221bf01697d52cffcd15959ee
+https://github.com/ezio84/frameworks_base/commit/6b0fa3df516c3540d9660549130cb7cc428f0f3f
+https://github.com/ezio84/frameworks_base/commit/07fe11ab3ae849c18264189c5319816f1722e122
+
+Add charging connection sound (custom ringtone)/vib/silent setting (works for both wired and wireless charging)
+https://github.com/ezio84/packages_apps_Settings/commit/ce049c7b07c89bea590f71906ef68b6c496939b7
+https://github.com/ezio84/frameworks_base/commit/85a17badd9243df48e9b537355a7472c0174f8b4
+https://github.com/ezio84/frameworks_base/commit/b8514aecea3c69eea09a1e1c9a5eea7a812372b9
+
+SystemUI: fix keyguard charging text not showing 
+https://github.com/ezio84/frameworks_base/commit/d482f71d23c0cddba133242626a5eeb508a329f0
+
+Let the user switch from aosp to Google webview and viceversa just installing or uninstalling the app from playstore (ps: aosp webview bundled with the rom is the rock solid choice at the moment)
+https://github.com/ezio84/frameworks_base/commit/39e559cfaf083c3ec1ce15b319c147833f2e28e6
+**Built-in Google webview:
+- fork this tree: https://github.com/ezio84/android_frameworks_webview and track it in your manifest: https://github.com/ezio84/scripts/commit/c196b6585a815ecd4b038b2af9c5cae6c42f6c43
+- then add the above 39e559cfaf083c3ec1ce15b319c147833f2e28e6
+- then revert the old prebuilt chromium commits (without reverting the fixed out folder code, it's still useful):
+https://github.com/ezio84/android_build/commit/7f7d54847fb87bac76ae7cacd348dd1b841ce41f
+https://github.com/ezio84/vendor_slim/commit/072565ede74dd50e17474800d99b1f35be595371
+https://github.com/ezio84/scripts/commit/9159423b9bb5b3e845e4db546b44a8dcdb53db99
+-then add:
+https://github.com/ezio84/android_build/commit/90d967871ca4452cf79fc8d82ec836cce43866b1
+
 Display cursor buttons in navigation bar while typing
 https://github.com/ezio84/frameworks_base/commit/aaa5a67a417d5ba2cb0fac916e2156a7aeb2121c
 https://github.com/ezio84/frameworks_base/commit/b6f839c4060beebc8eafe7b6c863d8bf9e7b4af8
+https://github.com/ezio84/frameworks_base/commit/4e0d82a43949295cefe64466de6e12b2ee0fd46b
+https://github.com/ezio84/frameworks_base/commit/7bfb2e3d4cece6998e49463bb9b1861f42ef927a
 https://github.com/ezio84/packages_apps_Settings/commit/9220bec43eb4c766310fd34c0392be200f38128a
 https://github.com/ezio84/packages_apps_Settings/commit/987230dc8e9d3872f5e0c62290f42dae1052e52e
 https://github.com/ezio84/packages_apps_Settings/commit/0e0743527d827cae18f143e12660ee3ed3c58d1a
@@ -15,6 +129,8 @@ Slim Global Menu (power menu configuration)
 https://github.com/ezio84/frameworks_base/commit/388b409188cabe12c783651989f5fe715212cecb
 https://github.com/ezio84/packages_apps_Settings/commit/5b974994e1ce26d9f221d78bb885d8f71e69c93e
 https://github.com/ezio84/packages_apps_Settings/commit/f27bde695dce3b4c3174749c212f67d8b341e53d
+https://github.com/ezio84/frameworks_base/commit/7ac8355acdedfac94d42f7b08bd4fd9ed315972a
+https://github.com/ezio84/frameworks_base/commit/26956d1c9ad2343f735e53e9afad95f39f7de065
 
 Advanced reboot/power tile
 https://github.com/ezio84/frameworks_base/commit/5dd4063a92381a90cf22bd1ce996889dc15609bb
@@ -23,13 +139,10 @@ https://github.com/ezio84/frameworks_base/commit/8c09c82c893c8221d414ffa5de5e35b
 BootMessage: Show each app name being optimized during boot
 https://github.com/ezio84/frameworks_base/commit/2fdfe960cd07ebfb85d5189cbcf0d273b4e0937d
 
-Show multi-line notification if there's more than 1 missed call
-https://github.com/ezio84/packages_services_Telecomm/commit/0df15d901f6b14c239043af06d3f6c0f289bbddc
-
 Slim recents
 https://github.com/ezio84/scripts/commit/b0b272cb75ffd3a144ddf9fd3917695a66168b27
-https://review.slimroms.eu/#/c/4591/
-https://review.slimroms.eu/#/c/4592/
+https://github.com/ezio84/packages_apps_Settings/commit/2908664915585db465ba27f940d17ddcd95b040f
+https://github.com/ezio84/frameworks_base/commit/e302eb6480e2da356b439f354e67fb53b0de1801
 Stock Recents: option to disable searchbar
 https://github.com/ezio84/packages_apps_Settings/commit/ac3fc829de80111921a2938fdfaf4bf223fefb10
 https://github.com/ezio84/frameworks_base/commit/bc0962e124dc3afd4b209289b00fe27bc6956a8b
@@ -60,9 +173,6 @@ https://github.com/ezio84/vendor_slim/commit/56276e195f2ca3b37331e60b6f5ffdc0a96
 Fix play service fc with alternative toolchains
 https://github.com/ezio84/platform_libcore/commit/faeae8da0755f981612289c4eb5b0d12803c44a9
 
-Frameworks: follow charging notification settings also for wireless charging
-https://github.com/ezio84/frameworks_base/commit/b8514aecea3c69eea09a1e1c9a5eea7a812372b9
-
 Increasing volume ring
 https://github.com/ezio84/packages_services_Telecomm/commit/e7944b380649e3277083a4a40a76d48d3df4c0d0
 https://github.com/ezio84/frameworks_base/commit/9d0b28a0be923ec133ec802070f487cd91bb2810
@@ -83,6 +193,8 @@ https://github.com/ezio84/packages_services_Telephony/commit/5adbd1cd8acd934dd2f
 https://github.com/ezio84/frameworks_opt_telephony/commit/5cdb0c329d733ccf95cf86c80afed64e1cb44f86
 https://github.com/ezio84/packages_providers_TelephonyProvider/commit/b74d4b3317e213cf612afb8f63e4ae0e9a369156
 https://github.com/ezio84/packages_services_Telecomm/commit/071c41aefaa4fe20d1dd68eb987d0cb94b37a927
+https://github.com/ezio84/packages_services_Telecomm/commit/4526e5af6f7ad0b0a57fe962ea86e22d7b6cde2e
+https://github.com/ezio84/frameworks_opt_telephony/commit/0b55fd811244e04f173820e6a1fe1448ccf52681
 
 DeskClock: Add option to hide AlarmClock Icon in StatusBar
 https://github.com/ezio84/packages_apps_DeskClock/commit/98d94b49f73244f74efe7ac5541419fc361ff650
@@ -90,9 +202,12 @@ https://github.com/ezio84/frameworks_base/commit/b37cae03ae47349c9e9781217ea433c
 https://github.com/ezio84/packages_apps_DeskClock/commit/58fdd79ddc4a43cca5b578414c10ec4b097d751e
 
 Chamber of Secrets && SlimActions to shortcuts 
-https://github.com/ezio84/frameworks_base/commit/13a6a788940212d8bd02262c6e8f896ced403f49
+https://github.com/ezio84/frameworks_base/commit/dca9d98b2fe4a17641f55ed5fc1ca064f02bdd9e
 https://github.com/ezio84/frameworks_base/commit/44a6551176189411e008474554f69ea777526f01
-https://github.com/ezio84/packages_apps_Settings/commit/9e36c4fc7d3914a4a93c921b7af5b89a2fc8dc9f
+https://github.com/ezio84/packages_apps_Settings/commit/dfef554665fd0d94da505a4c7491b6ef4d25d5dc
+https://github.com/ezio84/packages_apps_Settings/commit/2a913b645935e7dfb58529553d008e728f524eff
+https://github.com/ezio84/frameworks_base/commit/26da78a12fba3ddb358610ef9a60c075a83f0bfe
+https://github.com/ezio84/packages_apps_Settings/commit/ec09a679558a2d6ff9159bec5db4bb3c3993eb02
 
 Remove the useless persistent plugged headset notification
 https://github.com/ezio84/packages_services_Telecomm/commit/595953bf9370509504dd901a4dedaf99b32ac9b0
@@ -101,6 +216,7 @@ SlimPIE
 https://github.com/ezio84/packages_apps_Settings/commit/4c7d96079f5c274e4bab1006bce505100a16f113
 https://github.com/ezio84/frameworks_base/commit/0142e1e5dc172f6208ddd84af9cda743ba8b854e
 https://github.com/ezio84/frameworks_base/commit/fa9acd7404ea10e9848f4b897725d07f1c24962a
+https://github.com/ezio84/frameworks_base/commit/ca2e2bc01704e6844a50d1bf65cfdab906ec0061
 Gerrit commits:
 https://review.slimroms.eu/3670
 https://review.slimroms.eu/3669
@@ -114,6 +230,12 @@ https://github.com/ezio84/packages_apps_Settings/commit/9cac26c3272c092ed57ee9c2
 https://github.com/ezio84/packages_apps_Settings/commit/e95cd1b7f19613ed33da38a517ee69221ce94147
 https://github.com/ezio84/packages_apps_Settings/commit/9c1503821daafc1963011d6ddb133b202dda5316
 https://github.com/ezio84/frameworks_base/commit/5688393dd726aaa2b37f912bde726a18c82dc6d1
+https://github.com/ezio84/frameworks_base/commit/57fa7609bd337c04be63cc20d288874e53f4415b
+https://github.com/ezio84/packages_apps_Settings/commit/54db2389db0b194720816dd7bde510d884d07e45
+https://github.com/ezio84/frameworks_base/commit/660de85293c4d9674ffc57af67c6d06a7425f752
+https://github.com/ezio84/frameworks_base/commit/e8df5f73eb39b94b96d1a09721ef32cbf580dc7a
+https://github.com/ezio84/packages_apps_Settings/commit/10e73675859d197736d35213df446e07ecb9ce29
+https://github.com/ezio84/frameworks_base/commit/1592ebf474cc391ba32b382ccc57dc60df04bb6e
 
 DeskClock: Add back flip and shake actions
 https://github.com/ezio84/packages_apps_DeskClock/commit/164e8ba49b9e096fa57e8e8d8f86a87c0ffac5d3
@@ -146,6 +268,7 @@ https://github.com/ezio84/packages_apps_Settings/commit/3bbcef22e8886da9ca67a399
 https://github.com/ezio84/frameworks_base/commit/ec6ae8d0c3acbfc5f4328ac91f9cf11e03847fcf 
 https://github.com/ezio84/frameworks_base/commit/e0b04fa744e1248d591087db28e06daccf0c1620
 https://github.com/ezio84/frameworks_base/commit/cd76292ee8f6a4ad37f1e17547a4153428846f34
+https://github.com/ezio84/frameworks_base/commit/d9f4e27d271d5e31cd119e7906ae3371b42e46b6
 
 Telephony: Make voicemail notifications dismissable
 https://github.com/ezio84/packages_services_Telephony/commit/e68358a12b8ebdb80781e72e5a3a1f17baf9aae9
@@ -190,6 +313,7 @@ https://github.com/ezio84/packages_apps_Settings/commit/2118a8035bb10e732a05f9ef
 https://github.com/ezio84/frameworks_base/commit/c8e8f6bbd54612361d5476d310e2fcabd781718a
 https://github.com/ezio84/packages_apps_Settings/commit/b01c35e30c5f9e34587686823496cd9cea6a8099
 https://github.com/ezio84/frameworks_base/commit/bbeb29d9d9968b78d1f2a530bafbdc9aac60a2c3
+https://github.com/ezio84/frameworks_base/commit/5261ea15ea8087a6cf3731050391f5cbbb2333cd
 
 Slim custom navbar
 https://github.com/ezio84/frameworks_base/commit/ec6174d2952512d8f5cc1bd6032a5edc73b802a0
@@ -208,8 +332,16 @@ https://github.com/ezio84/packages_apps_Settings/commit/4821645bbc680641e35c00ea
 https://github.com/ezio84/frameworks_base/commit/14838b62896be4a2a8f2b34f74fce55feb37c6d5
 https://github.com/ezio84/frameworks_base/commit/c75655955e0e787a7f93f7991e7a2cbf9c649b3a
 https://github.com/ezio84/frameworks_base/commit/ce4df74d1aa37a2c5d4535ea0e7af7c3febc1f92
-
-
+https://github.com/ezio84/packages_apps_Settings/commit/cb6d3a83e5097c6477d2e35a248c7506aa05a592 (good also for Pie and global menu)
+https://github.com/ezio84/frameworks_base/commit/dedbfa71b20cd88ff15caabb1d45e585524bfc4c (good also for Pie)
+https://github.com/ezio84/frameworks_base/commit/9fb5cfc36a6efdbafbc875ef6b506b793f9cd30f (good also for Pie and global menu)
+https://github.com/ezio84/packages_apps_Settings/commit/18ff7ae9de36ee3febcde63832956049fa6716f5
+https://github.com/ezio84/frameworks_base/commit/f214674b6a8b1070117a59d18abf0b90948d41f0
+https://github.com/ezio84/packages_apps_Settings/commit/05e87ba77729d3c1fa3341900df30c099b841132
+https://github.com/ezio84/frameworks_base/commit/a4f8664e0596a56b38b4b3db4eea2e29f181bdc5
+https://github.com/ezio84/frameworks_base/commit/dc64876a1f89d12799a769171a5d64649863831d (after adding slimdim)
+https://github.com/ezio84/frameworks_base/commit/4ad31525b2d5dc50019243c5d02429ec731d6577 (after adding above commit)
+https://github.com/ezio84/frameworks_base/commit/c1acf99e8154308bf0aabaf709d9581faa16bd19 (after adding above commit)
 
 Return of Silent mode (the user can set Silent instead of NoInterruption so alarms will be still active)   <---REVERTED DUE TO THE NEW OMNIROM SILENT MODE COMMITS
 https://github.com/ezio84/frameworks_base/commit/0664705da8a84ceb64049a1b03df42cef2ec7052   <---REVERTED DUE TO THE NEW OMNIROM SILENT MODE COMMITS
@@ -241,6 +373,12 @@ https://github.com/ezio84/frameworks_base/commit/913286fa1c90ee6aaa4ff99ce2b4460
 https://github.com/ezio84/packages_apps_Settings/commit/1f992237637929798105c8e93d7a57d54f5076c0
 https://github.com/ezio84/frameworks_base/commit/3b629d3e4644d41da79e2965a819730393cd5a98
 https://github.com/ezio84/frameworks_base/commit/239d9cfa4a0755ed88a672b61ba4b0fcb9701360
+https://github.com/ezio84/frameworks_base/commit/29b0a91d18220c4d1bbb36b54e316d0a34ea5d1e
+https://github.com/ezio84/packages_apps_Settings/commit/72b9b6cd115921538e9b9a2997fa7954b1c04c65
+- Remove some tile checks for Nexus:
+https://github.com/ezio84/frameworks_base/commit/75638f7d33b76eb28cad8769162d189933f3fc01
+https://github.com/ezio84/frameworks_base/commit/05a258da5512562d4fc379a752d782a4478069e3
+https://github.com/ezio84/frameworks_base/commit/f81f4a6495f7c85d80e7d072fbd83b151deb1d94
 
 Add LCD density setting
 https://github.com/ezio84/packages_apps_Settings/commit/ecc5acf7eace8ca8a8cf39ad4984088e3e29b537
@@ -250,6 +388,8 @@ https://github.com/ezio84/frameworks_base/commit/56ae60c73f58516d2c25e6cd5ff250a
 https://github.com/ezio84/frameworks_base/commit/cb474a25079224f03b1cb1f831f34269a6b2afc4
 https://github.com/ezio84/frameworks_base/commit/b046d39737b951ede69bce47df1f867d0d425dca
 https://github.com/ezio84/packages_apps_Settings/commit/d4fac6cc10c7f02022c9d0718c53aeb085508ef7
+https://github.com/ezio84/frameworks_base/commit/149993cd76b6a801888998c38a13bee42b77c284
+https://github.com/ezio84/frameworks_base/commit/f13f1ee3a68ca1e852548cabfeee056fa42b6151
 
 Bringup expanded desktop and implement per-user configuration
 https://github.com/ezio84/packages_apps_Settings/commit/2c3019bf6644cdc70b1b23b0a493731474639b74
@@ -284,10 +424,13 @@ https://github.com/ezio84/packages_apps_InCallUI/commit/591aefe3d0d5315671f3daa1
 https://github.com/ezio84/packages_apps_InCallUI/commit/c46f3fedad1b4808ef5d0c374465f12bbf892c1f
 https://github.com/ezio84/packages_apps_InCallUI/commit/14460f2a7028dcc605f429be32ffebcd9b75007a
 
-Long press to skip tracks
-https://github.com/ezio84/frameworks_base/commit/e4d82041ac8bf10db5b69caaa7c3987abb414821
-https://github.com/ezio84/frameworks_base/commit/fd07932f09f13bcaa9e9d626af1f240cdb1e7d51
+Long press volume rocker key to skip tracks
 https://github.com/ezio84/packages_apps_Settings/commit/d707adce89310692668e56c1d8e3a1a61ee5d5a5
+https://github.com/ezio84/frameworks_base/commit/e4d82041ac8bf10db5b69caaa7c3987abb414821
+https://github.com/ezio84/frameworks_base/commit/f7b7ca9613c00aafeface2d7985f9547b6d238fe
+https://github.com/ezio84/frameworks_base/commit/7712a73dd5960b54a827e863292673769b2f518e
+https://github.com/ezio84/frameworks_base/commit/ac2f9d6af6d38b53a8fcc200170a6902c5a4f27f
+https://github.com/ezio84/frameworks_base/commit/9e89476c080e4ed74063d40742f6f402bfa8ffc7
 
 Add ability to change the color in battery saver mode
 https://github.com/ezio84/packages_apps_Settings/commit/682ecd495d7cd84979106f60076cf266ad229565
@@ -318,6 +461,7 @@ DocumentsUI: Add a standalone File Manager
 https://github.com/ezio84/frameworks_base/commit/0984942d51a903335cd3b555f966aee77e7acd44
 https://github.com/ezio84/frameworks_base/commit/19141352c5829a613a81545660dc817061c98586
 https://github.com/ezio84/frameworks_base/commit/f3da5635d24a7c66c5790f753ffd97b559f5b182
+https://github.com/ezio84/frameworks_base/commit/d103e3b0ba22b5941d017332e9fb9b7f778c9520
 
 Statusar: bring back Network indicators
 https://github.com/ezio84/packages_apps_Settings/commit/ef3ff1979b2134da582567127cf97b5aa3431103
@@ -370,7 +514,9 @@ https://github.com/ezio84/packages_apps_PackageInstaller/commit/a596b7b95dadcad6
 
 RRO layers 2.1 commits:
 https://review.slimroms.eu/#/q/branch:lp5.1+topic:rro2.1
-https://review.slimroms.eu/#/c/1477/ (for Doze color inversion)
+https://review.slimroms.eu/#/c/1477/ 
+https://github.com/ezio84/packages_apps_Dialer/commit/4a97a1704ff4ed19557ff2c630fd471d5f89ea87
+https://github.com/ezio84/packages_apps_Dialer/commit/958db6413addca34872147c75926c6f2a583abcf
 PS: till themes are updated to support the icon tint, don't add these:
 https://review.slimroms.eu/2228
 https://review.slimroms.eu/2230
@@ -414,6 +560,7 @@ https://github.com/ezio84/android_build/commit/bab8e0dfb946455a69c2afe948cb5f755
 Launch SuperSU from Settings
 https://github.com/ezio84/packages_apps_Settings/commit/cb0a2cae3ecf022d2d3fc8bc39bbd1713de511a1
 https://github.com/ezio84/packages_apps_Settings/commit/5be069e1c46ca5a80c67fcd742c634becf5ea0ae
+https://github.com/ezio84/packages_apps_Settings/commit/5fc921b8ec401fa7a0d017189018b876b31a5422
 
 - Add back Slimcenter and ota notifications <--OLD, NOW I'M USING SLIMOTA BY FUSIONJACK 
 Add this line to the manifest: <project path="packages/apps/SlimCenter" name="ezio84/packages_apps_SlimCenter" remote="github" revision="lp5.1" /> <--OLD, NOW I'M USING SLIMOTA BY FUSIONJACK 
@@ -448,11 +595,11 @@ https://github.com/ezio84/android_build/commit/0556ec8b16535d97529d5d78998dbd223
 Updater-script: show build and device info in the recovery log
 https://github.com/ezio84/android_build/commit/3ed01e75a698e6ecc579829a2f6c06e9a5a68190
 
-Chromium prebuilts and common out (to speed up the build process and have device-specific common folders)
-https://github.com/ezio84/scripts/commit/6223d8c0f2a196d04fd57888ccdc1ba7e6a11862
-https://github.com/ezio84/scripts/commit/f68ceb28c6795e1a3277f13e2cac4f70bd102781
-https://github.com/ezio84/vendor_slim/commit/01202b95bd0631bdf56f963f3a198d330f3c4b6c
-https://github.com/ezio84/android_build/commit/05af9f841dc9146b84bf2b17b41dd8b1785c3c00
+Chromium prebuilts and common out (to speed up the build process and have device-specific common folders) <---**********OLD: see "built-in Google webview" commits (btw you can still use the fixed OUT folder code of these old commits)
+https://github.com/ezio84/scripts/commit/6223d8c0f2a196d04fd57888ccdc1ba7e6a11862 <---**********OLD: see "built-in Google webview" commits (btw you can still use the fixed OUT folder code of these old commits)
+https://github.com/ezio84/scripts/commit/f68ceb28c6795e1a3277f13e2cac4f70bd102781 <---**********OLD: see "built-in Google webview" commits (btw you can still use the fixed OUT folder code of these old commits)
+https://github.com/ezio84/vendor_slim/commit/01202b95bd0631bdf56f963f3a198d330f3c4b6c <---**********OLD: see "built-in Google webview" commits (btw you can still use the fixed OUT folder code of these old commits)
+https://github.com/ezio84/android_build/commit/05af9f841dc9146b84bf2b17b41dd8b1785c3c00 <---**********OLD: see "built-in Google webview" commits (btw you can still use the fixed OUT folder code of these old commits)
 
 Remove Browser <-- REVERTED, BROWSER IS USEFUL WHEN USING THE ROM WITHOUT GAPPS
 https://github.com/ezio84/android_build/commit/f79ef959e67cf12ecbe9107628fa7f9757c1d133 (don't remove email and exchange, some stuff of them like emailcommon is needed by BT) <-- REVERTED, BROWSER IS USEFUL WHEN USING THE ROM WITHOUT GAPPS

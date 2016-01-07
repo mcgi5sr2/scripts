@@ -57,7 +57,11 @@ fi
 export BUILDING_RECOVERY=true
 
 # Prebuilt chromium
+<<<<<<< HEAD
 export USE_PREBUILT_CHROMIUM=0
+=======
+# export USE_PREBUILT_CHROMIUM=1
+>>>>>>> 44f81d5692d252152dedee8fff7620ebece2dcca
 
 # Fix common out folder not being a common
 export ANDROID_FIXUP_COMMON_OUT=true

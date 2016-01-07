@@ -16,7 +16,11 @@ cd $rdir/frameworks/base && git checkout lp5.1 && git fetch slimroms && git merg
 echo -e "${bldgrn}Updating packages/apps/Settings ${txtrst}"
 cd $rdir/packages/apps/Settings && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/packages_apps_Settings lp5.1
 echo -e "${bldgrn}Updating frameworks/av ${txtrst}"
-cd $rdir/frameworks/av && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/frameworks_av lp5.1
+cd $rdir/frameworks/av && git checkout lp5.1 && git fetch cm && git merge cm/cm-12.1 && git push https://github.com/ezio84/frameworks_av lp5.1
+echo -e "${bldgrn}Updating frameworks/native ${txtrst}"
+cd $rdir/frameworks/native && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/frameworks_native lp5.1
+echo -e "${bldgrn}Updating external/stagefright-plugins ${txtrst}"
+cd $rdir/external/stagefright-plugins && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/android_external_stagefright-plugins lp5.1
 echo -e "${bldgrn}Updating build ${txtrst}"
 cd $rdir/build && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/android_build lp5.1
 echo -e "${bldgrn}Updating vendor/slim ${txtrst}"
@@ -40,7 +44,7 @@ cd $rdir/bionic && git checkout lp5.1 && git fetch slimroms && git merge slimrom
 echo -e "${bldgrn}Updating frameworks/opt/telephony ${txtrst}"
 cd $rdir/frameworks/opt/telephony && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/frameworks_opt_telephony lp5.1
 echo -e "${bldgrn}Updating frameworks/opt/cards ${txtrst}"
-cd $rdir/frameworks/opt/cards && git checkout lp5.1 && git fetch gmillz && git merge gmillz/lp5.1 && git push https://github.com/ezio84/frameworks_opt_cards lp5.1
+cd $rdir/frameworks/opt/cards && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/frameworks_opt_cards lp5.1
 echo -e "${bldgrn}Updating packages/apps/Dialer ${txtrst}"
 cd $rdir/packages/apps/Dialer && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/packages_apps_Dialer lp5.1
 echo -e "${bldgrn}Updating packages/apps/Contacts ${txtrst}"
@@ -56,7 +60,23 @@ cd $rdir/packages/providers/TelephonyProvider && git checkout lp5.1 && git fetch
 echo -e "${bldgrn}Updating packages/apps/DeskClock ${txtrst}"
 cd $rdir/packages/apps/DeskClock && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/packages_apps_DeskClock lp5.1
 echo -e "${bldgrn}Updating packages/apps/ScreenRecorder ${txtrst}"
-cd $rdir/packages/apps/ScreenRecorder && git checkout lp5.1 && git fetch slimsaber && git merge slimsaber/lp5.0 && git push https://github.com/ezio84/android_packages_apps_ScreenRecorder lp5.1
+cd $rdir/packages/apps/ScreenRecorder && git checkout lp5.1 && git fetch slimsaber && git merge slimsaber/lp5.1 && git push https://github.com/ezio84/android_packages_apps_ScreenRecorder lp5.1
+echo -e "${bldgrn}Updating external/bluetooth/bluedroid ${txtrst}"
+cd $rdir/external/bluetooth/bluedroid/ && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/android_external_bluetooth_bluedroid lp5.1
+echo -e "${bldgrn}Updating vendor/broadcom ${txtrst}"
+cd $rdir/vendor/broadcom/ && git checkout lp5.1 && git fetch robbie && git merge robbie/lp5.1 && git push https://github.com/ezio84/proprietary_vendor_broadcom lp5.1
+echo -e "${bldgrn}Updating vendor/qcom ${txtrst}"
+cd $rdir/vendor/qcom/ && git checkout lp5.1 && git fetch robbie && git merge robbie/lp5.1 && git push https://github.com/ezio84/proprietary_vendor_qcom lp5.1
+echo -e "${bldgrn}Updating vendor/lge ${txtrst}"
+cd $rdir/vendor/lge/ && git checkout lp5.1 && git fetch robbie && git merge robbie/lp5.1 && git push https://github.com/ezio84/proprietary_vendor_lge lp5.1
+echo -e "${bldgrn}Updating frameworks/webview ${txtrst}"
+cd $rdir/frameworks/webview && git checkout lp5.1 && git fetch slimsaber && git merge slimsaber/lp5.1 && git push https://github.com/ezio84/android_frameworks_webview lp5.1
+echo -e "${bldgrn}Updating hardware/libhardware ${txtrst}"
+cd $rdir/hardware/libhardware && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/hardware_libhardware lp5.1
+echo -e "${bldgrn}Updating frameworks/opt/net/wifi ${txtrst}"
+cd $rdir/frameworks/opt/net/wifi && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/frameworks_opt_net_wifi lp5.1
+echo -e "${bldgrn}Updating device/qcom/common/ ${txtrst}"
+cd $rdir/device/qcom/common && git checkout lp5.1 && git fetch slimroms && git merge slimroms/lp5.1 && git push https://github.com/ezio84/device_qcom_common lp5.1
 #echo -e "${bldgrn}Updating libcore ${txtrst}"
 #cd $rdir/libcore && git checkout lp5.1 && git fetch slimsaber && git merge slimsaber/lp5.1 && git push https://github.com/ezio84/platform_libcore lp5.1
 #echo -e "${bldgrn}Updating art ${txtrst}"
